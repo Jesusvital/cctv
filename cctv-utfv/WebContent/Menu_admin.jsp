@@ -15,11 +15,11 @@
 			
 			<h2>SISTEMA DE MONITOREO</h2>
 			<div class="col-md-4">
-			<img class="objetos" src="img/adduser.png">
+			<a href="addUser.jsp"><img class="objetos" src="img/adduser.png"></a>
 			</div>
 			
 			<div class="col-md-4">
-			<a href="www.youtube.com"><img class="objetos" src="img/viewuser.png"></a>
+			<a href="viewUser.jsp"><img class="objetos" src="img/viewuser.png"></a>
 			</div>
 			
 			<div class="col-md-4">
