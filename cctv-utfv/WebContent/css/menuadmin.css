@@ -1,12 +1,14 @@
 .contenedor{
 
   opacity:0.8;
-  padding-right: 15px;
+padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  background-color:#85929E;
-  border-color:red;
+  margin-right: 70px;
+  margin-left: 70px;
+  background-color:#fff;
+  border-radius: 5px;
+  margin-top: 30px;
+  border:1px solid green;
 	
 }
 @media (min-width: 768px) {
@@ -29,12 +31,12 @@
 	margin-right:auto;
    	position: absolute;
 		top:40%;
-		left:50%;
+		left:38%;
 		width:auto;
 		height:auto;
 		margin-left:-200px;
 		margin-top:-200px;
-		border:1px solid #8080;
+		border:1px solid #fff;
 		padding:0px;
 }
 .aling-izq{
@@ -42,7 +44,7 @@ margin-left:auto;
 	margin-right:auto;
    	position: absolute;
 		top:10%;
-		left:5%;
+		left:2%;
 }
 img{
 	width: 200px;
@@ -59,7 +61,16 @@ img{
   margin-right: -15px;
   margin-left: -15px;
 }
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, 
+.col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, 
+.col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, 
+.col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, 
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, 
+.col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, 
+.col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, 
+.col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, 
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, 
+.col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-right: 15px;
@@ -695,3 +706,22 @@ img{
     margin-left: 0;
   }
 }
+
+	
+.gi-2x{font-size: 2em;}
+.gi-3x{font-size: 3em;}
+.gi-4x{font-size: 4em;}
+.gi-5x{font-size: 5em;}
+.gi-6x{font-size: 6em;}
+.gi-7x{font-size: 7em;}
+.gi-8x{font-size: 8em;}
+.gi-9x{font-size: 9em;}
+.gi-10x{font-size: 10em;}
+.gi-11x{font-size: 11em;}
+.gi-12x{font-size: 12em;}
+.gi-13x{font-size: 13em;}
+.gi-14x{font-size: 14em;}
+.gi-15x{font-size: 15em;}
+.gi-100x{font-size: 100em;}
+
+

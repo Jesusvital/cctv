@@ -4,34 +4,39 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link rel="stylesheet" type="text/css" href="css/estilo-index.css">
+
+ <link rel="stylesheet" type="text/css" href="css/estilo-index.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/glyphicon.css">
 
 <title>CCTV-UTFV</title>
 </head>
 <body>
 
-
-
-
-	<div class="contenedor">		
-		<div class="centrar"><img src="img/logo_utfv.jpg"></div>
-	</div>
+	
 		
 	
-	<div class="cont-centrar">
-	<h1>LOGIN-CCTV-UTFV</h1>
+	<div class="container-fluid">
+	<p>Bienvenido a nuestro sitio web</p>
+		<div class="col-md-4"></div>
+		<div class="col-md-4"><img class="img-responsive" src="img/logo_utfv.jpg"></div>
+		<div class="col-md-4"></div>
+		<br><br><br><br>
 	
+	<form>
+	
+		 <div class="form-group row">
+		 <h1>LOGIN-CCTV-UTFV</h1>
 	   <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-		<input type="text"><br>
+		<input type="text" class="form-control-plaintext"><br>
 		<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
 		<input type="password"><br><br>
-		<button class="boton" onclick="Acti();"> ENTRAR</button>
+		<button class=" boton btn-primary" onclick="Acti();"> ENTRAR</button>
 		</div>
 		
-		<p>
-		Bienvenido a nuestro sitio web
-		</p>
+		
+		</form>
+		</div>
 		
 </body>
 <style>
