@@ -343,6 +343,8 @@
 }
 .glyphicon-warning-sign:before {
   content: "\e107";
+  font-size: 100em;
+
 }
 .glyphicon-plane:before {
   content: "\e108";
