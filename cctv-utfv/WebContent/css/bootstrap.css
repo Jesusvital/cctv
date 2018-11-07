@@ -4,10 +4,19 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@font-face{
+	font-family:"SansationLight";
+	src: url("fonts/SansationLight.woff");
+	font-weight:400;
+	
+}
+
 html {
-  font-family: sans-serif;
+  font-family: SansationLight;
+  font-family: SansationLight;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+     color:#2073bf;
       
 }
 body {
