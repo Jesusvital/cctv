@@ -15,12 +15,12 @@
 </head>
 <body>
 <div class="container-fluid">
-		<img class="img-responsive" src="img/logo_utfv.jpg"><br>
+		<div class="img-responsive col-md-2"><img class="img-responsive" src="img/logo_utfv.jpg"></div><br>
 				
 					<form class="form-horizontal" role="form">
 					
 						<div class="form-group">
-							<div class="col-md-4"></div>
+							<div class="col-md-2"></div>
 								<div class="col-md-4">
 									<h3>FORMULARIO DE AGREGAR USUARIO</h3>
 										<span class="glyphicon glyphicon-user" aria-hidden="true"></span> 
@@ -48,7 +48,7 @@
 			      </div>
 			      <div class="modal-body">
 			      
-			      <span style="font-size: 100px" class="glyphicon glyphicon-warning-sign"></span>
+			      <span style="font-size: 1px; color:yellow;" class="glyphicon glyphicon-warning-sign"></span>
 			      <h4 style="text-align:center; margin-top:-10px; margin-bottom:60px;">Revisa tu que los datos sean correctos</h4>
 			      </div>
 			    </div>

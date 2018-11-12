@@ -6,7 +6,7 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
-<link rel="stylesheet" type="text/css" href="css/estilo-index.css">
+
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/glyphicon.css">
 <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -56,7 +56,7 @@
 			      </div>
 			      <div class="modal-body">
 			      
-			      <span style="font-size: 100px" class="glyphicon glyphicon-warning-sign"></span>
+			      <span style="font-size: 1px" class="glyphicon glyphicon-warning-sign"></span>
 			      <h4 style="text-align:center; margin-top:-10px; margin-bottom:60px;">Revisa tu contraseña o correo electronico</h4>
 			      </div>
 			    </div>

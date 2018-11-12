@@ -5,62 +5,60 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Usuarios activos</title>
-<link rel="stylesheet" type="text/css" href="css/addUser.css">
-<link rel="stylesheet" type="text/css" href="css/viewUSer.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
 </head>
 <body>
 
-<div class="contenedor">
-		<div class="aling-izq"><img src="img/logo_utfv.jpg"></div>
-		<div class="centrar">
+<div class="container-fluid">
+		<div class="img-responsive col-md-2"><img class="img-responsive" src="img/logo_utfv.jpg"></div>
+
 			
 			<h2>VISTA DE USUARIOS EN LINEA</h2>
-<div class="table-responsive">
-
-<div class="table-responsive">
-      <table class="table">
-        <thead>
-          <tr>
-            <th>id</th>
-            <th>Usuarios</th>
-            <th>Nombre de usuario</th>
-            <th>Contraseña</th>
-            <th>Correo</th>
-            
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Table cell</td>
-            <td>Table cell</td>
-            <td>Table cell</td>
-            <td>Table cell</td>
-            
-          </tr>
+		
+			<div class="table-responsive">
+			      <table class="table">
+			        <thead>
+			          <tr>
+			            <th>id</th>
+			            <th>Usuarios</th>
+			            <th>Nombre de usuario</th>
+			            <th>Contraseña</th>
+			            <th>Correo</th>
+			            
+			          </tr>
+			        </thead>
+			        
+			       <tbody>
+				          <tr>
+				            <th scope="row">1</th>
+				            <td>Table cell</td>
+				            <td>Table cell</td>
+				            <td>Table cell</td>
+				            <td>Table cell</td>
+				            
+				          </tr>
                   </tbody>
-      </table>
-    </div><!-- /.table-responsive -->
+      			</table>
+    		</div><!-- /.table-responsive -->
+    		
+
+			
+
 </div>
-</div>
-</div>
 
-
-
-
-
-<style>
-@font-face{
-	font-family:"SansationLight";
-	src: url("fonts/SansationLight.woff");
-	font-weight:400;
 	
-}
-html{
-   font-family:SansationLight;
-   
-}
-</style>
 
+
+	<div class=" col col-lg-10" style="align-content: center	;">
+			  
+			 <div class="align-self-end"> 
+			<a onclick="history.back()"><span style="font-size: 75px" class="glyphicon glyphicon-arrow-left"  class="tooltip"></span></a><br>
+			 <label>Volver</label>
+			 
+			 </div>
+			 
+			
+		</div>
 </body>
 </html>
