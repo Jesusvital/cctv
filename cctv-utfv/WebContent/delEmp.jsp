@@ -6,45 +6,61 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" type="text/css" href="css/estilos/style.css">
 <link rel="stylesheet" type="text/css" href="css/glyphicon.css">
-<title>Eliminar usuario</title>
+<title>Eliminar empleado</title>
 
 </head>
 <body>
-	<main class="main-content">
-
-	<div id="site-content">
+<div id="site-content">
 		<header class="site-header">
-
-		<div class="container">
-			<div class="col-md-2">
-				<img src="img/logo_utfv.jpg">
-			</div>
-
-			<div class="form-group">
-				<div class="col-md-2"></div>
-				<div class="col-md-4">
-					<h2>ELIMINAR USUARIO</h2>
-
-
-
-					<form class="form-control">
-						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-						<input type="text" placeholder="NOMBRE DEL USUARIO"><br>
-
-						<input class="btn btn-primary btn-lg" type="submit"
-							value="Eliminar">
-
-					</form>
-				</div>
-			</div>
-
-
+	
+			<div class="mobile-navigation"></div>
 		</div>
 		</header>
+		<main class="main-content">
+		<div class="container">
+			<div class="page">
+				
+
+				<div class="breadcrumbs">
+					<center>
+						<h2>ELIMINAR EMPLEADO</h2>
+					</center>
+				</div>
+				<!-- es aqui -->
+				<div class="breadcrumbs col-md-5">
+					<div class="contact-form input-sm">
+						<form action="" method="post">
+							<input type="text" name="id" placeholder="ID" style="width: 75px;">
+							<br><br>
+							<input type="submit" value="E L I M I N A R">
+						</form>
+					</div>
+				</div>
+				<div class="breadcrumbs col-md-6 col-md-offset-1">
+					<center>
+						<div class="table-responsive">
+						<table class="table">
+							<thead>
+								<tr>
+									<td>ID</td>
+									<td>Nombre</td>
+									<td>Apellido P</td>
+									<td>Apellido M</td>
+									<td>Telefono</td>
+									<td>Puesto</td>
+									
+								</tr>
+							</thead>
+														
+						</table>
+						</div>
+					</center>
+				</div>
+				<br>
+			</div>
+		</div>
+		<!-- fin container --> </main>
+
 	</div>
-	</main>
-
-
-
 </body>
 </html>

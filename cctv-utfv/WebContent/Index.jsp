@@ -31,23 +31,20 @@
   	<legend class="legend">CCTV-UTFV</legend>
   
     <div class="input">
-    	<input type="text" placeholder="Usuario" required />
+    	<input type="text" placeholder="Usuario">
       <span><i class="fa fa-envelope-o"></i></span>
     </div>
     
     <div class="input">
-    	<input type="password" placeholder="Contraseña" required />
+    	<input type="password" placeholder="Contraseña">
       <span><i class="fa fa-lock"></i></span>
     </div>
     
-    <button type="submit" class="submit"><i class="fa fa-long-arrow-right"></i></button>
+    <a href="Menu_admin.jsp"><button type="submit" class="submit"><i class="fa fa-long-arrow-right"></i></button></a>
    
   </fieldset>
   
-  <div class="feedback">
-  	login successful <br />
-    redirecting...
-  </div>
+  
   
 </form>
 				

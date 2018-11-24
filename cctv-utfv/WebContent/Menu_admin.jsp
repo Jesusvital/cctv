@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="css/estilos/style.css">
 <!-- <link rel="stylesheet" type="text/css" href="css/menuadmin.css"> -->
 
+
 </head>
 <body>
 	<main class="main-content">
@@ -24,24 +25,98 @@
 			<div class="movie">
 
 				<div class="col-md-4">
-				<a class="seccion-title">AGREGAR USUARIO</a>
-					<img src="img/adduser.png" alt="#">
+				<a class="seccion-title">USUARIOS</a>
+				<br><br><br>
+						<div class="row">
+						<div class="col-md-10">
+							<a href="addUser.jsp">
+								<div class="alert alert-success back-widget-set text-center">
+									<i class="glyphicon glyphicon-plus"></i>
+									<h3>AGREGAR USUARIO</h3>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-10">
+							<a href="">
+								<div class="alert alert-info back-widget-set text-center">
+									<i class="glyphicon glyphicon-pencil"></i>
+									<h3>EDITAR USUARIO</h3>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-10">
+							<a href="delUser.jsp">
+								<div class="alert alert-danger back-widget-set text-center">
+									<i class="glyphicon glyphicon-trash"></i>
+									<h3>ELIMINAR USUARIO</h3>
+								</div>
+							</a>
+						</div>
+					</div>
 				</div>
 				
+		<div class="col-md-4">
+				<a class="seccion-title">EMPLEADOS</a>
+				<br><br><br>
+						<div class="row">
+						<div class="col-md-10">
+							<a href="addUser.jsp">
+								<div class="alert alert-success back-widget-set text-center">
+									<i class="glyphicon glyphicon-plus"></i>
+									<h3>AGREGAR EMPLEADO</h3>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-10">
+							<a href="">
+								<div class="alert alert-info back-widget-set text-center">
+									<i class="glyphicon glyphicon-pencil"></i>
+									<h3>EDITAR EMPLEADO</h3>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-10">
+							<a href="delUser.jsp">
+								<div class="alert alert-danger back-widget-set text-center">
+									<i class="glyphicon glyphicon-trash"></i>
+									<h3>ELIMINAR EMPLEADO</h3>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
 
-				<div class="col-md-4">
-				<a class="seccion-title">VER USUARIOS</a>
-					<img src="img/viewuser.png" alt="#">
+			<div class="col-md-4">
+				<a class="seccion-title">REPORTES</a>
+				<br><br><br>
+						<div class="row">
+						<div class="col-md-10">
+							<a href="Report.jsp">
+								<div class="alert alert-success back-widget-set text-center">
+									<i class="glyphicon glyphicon-plus"></i>
+									<h3>AGREGAR REPORTE</h3>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-10">
+							<a href="">
+								<div class="alert alert-info back-widget-set text-center">
+									<i class="glyphicon glyphicon-pencil"></i>
+									<h3>EDITAR REPORTE</h3>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-10">
+							<a href="delUser.jsp">
+								<div class="alert alert-danger back-widget-set text-center">
+									<i class="glyphicon glyphicon-trash"></i>
+									<h3>ELIMINAR REPORTE</h3>
+								</div>
+							</a>
+						</div>
+					</div>
 				</div>
-			
 
-				<div class="col-md-4">
-				<a class="seccion-title">VER CAMARAS</a>
-					<img src="img/viewcam.png" alt="#">
-				</div>
-				
-				
-				
 					
 							
 								<a onclick="history.back()"> <span style="font-size: 75px"
