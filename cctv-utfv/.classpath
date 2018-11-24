@@ -10,5 +10,7 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="C:/Users/Jesus/Documents/eclipse/MediaPlayer/vlcj-3.0.1-dist/vlcj-3.0.1/vlcj-3.0.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Jesus/Downloads/mariadb-java-client-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jesus/Downloads/mysql-connector-java-5.1.6-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jesus/Downloads/mysql-connector-java-5.1.47/mysql-connector-java-5.1.47/mysql-connector-java-5.1.47.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

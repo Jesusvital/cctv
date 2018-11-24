@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<div class="container-fluid">
+<div class="container">
 		<div class="img-responsive col-md-2"><img class="img-responsive" src="img/logo_utfv.jpg"></div>
 
 			
