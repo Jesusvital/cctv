@@ -7,13 +7,35 @@
 <title>Menu</title>
 <link rel="stylesheet" href="css/glyphicon.css">
 <link rel="stylesheet" href="css/estilos/style.css">
-<!-- <link rel="stylesheet" type="text/css" href="css/menuadmin.css"> -->
-
-
 </head>
 <body>
-	<main class="main-content">
-
+<main class="main-content">
+<div id="site-content">
+	<header class="site-header">
+		<div class="container">
+			<a href="inicio.jsp" id="branding"> <img src="images/logo.png"
+				alt="" class="logo">
+				<div class="logo-copy">
+					<h1 class="site-title"></h1>
+					<small class="site-description">CCTV-UTFV</small>
+				</div>
+			</a>
+			<div class="main-navigation">
+				<button type="button" class="menu-toggle">
+					<i class="fa fa-bars"></i>
+				</button>
+				<ul class="menu">
+					<li class="menu-item current-menu-item"><a
+						href="Index.jsp">Inicio</a></li>
+					<li class="menu-item"><a href="Menu_admin.jsp">Menu</a></li>
+					<li class="menu-item"><a href="inicio.jsp">Cerrar Sesion</a></li>
+				</ul>
+				<!-- .menu -->
+			</div>
+			<div class="mobile-navigation"></div>
+		</div>
+		</header>
+</div>
 	<div id="site-content">
 		<header class="site-header">
 
@@ -68,7 +90,7 @@
 							</a>
 						</div>
 						<div class="col-md-10">
-							<a href="">
+							<a href="modEmp.jsp">
 								<div class="alert alert-info back-widget-set text-center">
 									<i class="glyphicon glyphicon-pencil"></i>
 									<h3>EDITAR EMPLEADO</h3>
@@ -128,41 +150,7 @@
 	</header>	<!-- div movie --> 
 	</div>
 	</main>
-
-
-
-	<div class="footer">
-		<div class="col-md-4">
-			<ul>
-				<li>Holas</li>
-
-			</ul>
-		</div>
-		<div class="col-md-4">
-			<ul>
-				<li>Holas</li>
-
-			</ul>
-		</div>
-		<div class="col-md-4">
-			<ul>
-				<li>Holas</li>
-
-			</ul>
-		</div>
-
-
-
-
-	</div>
-
-
-
-
-
-
-
-
+	
 
 	<script
 		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
