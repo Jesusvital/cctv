@@ -13,7 +13,7 @@
 <div id="site-content">
 	<header class="site-header">
 		<div class="container">
-			<a href="inicio.jsp" id="branding"> <img src="images/logo.png"
+			<a href="Index.jsp" id="branding"> <img src="images/logo.png"
 				alt="" class="logo">
 				<div class="logo-copy">
 					<h1 class="site-title"></h1>
@@ -59,7 +59,7 @@
 							</a>
 						</div>
 						<div class="col-md-10">
-							<a href="">
+							<a href="modUser.jsp">
 								<div class="alert alert-info back-widget-set text-center">
 									<i class="glyphicon glyphicon-pencil"></i>
 									<h3>EDITAR USUARIO</h3>

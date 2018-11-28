@@ -37,7 +37,7 @@
 						
 					
 						<div class="breadcrumbs">
-							<center><h2>MODIFICAR EMPLEADO</h2></center>
+							<center><h2>MODIFICAR USUARIO</h2></center>
 						</div>
 					
 						<!-- es aqui -->
@@ -46,16 +46,22 @@
 						<form action="modifFun.jsp" method="post">
 							ID: 
 							<input type="text" name="id" placeholder="Funcion" style="width: 150px;"><br>
-							<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-						<input type="text" name="nomb" placeholder="N o m b r e"><br>
-						<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-						<input type="text" name="apeP" placeholder="A p e l l i d o P a t e r n o"><br>
-						<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-						<input type="text" name="apeM" placeholder="A p e l l i d o M a t e r n o"><br>
-						<span class="glyphicon glyphicon glyphicon-phone"
-							aria-hidden="true"></span> <input type="text" name="tel"
-							placeholder="T e l e f o n o"><br>
-							<input type="submit" value="A C E P T A R">
+								<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+						<input type="text" name="nombU" placeholder="Nombre de usuario"><br>
+						<span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>
+						<input type="password" name="pass" placeholder="Contraseña"><br>
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+						<input type="email" name="correo" placeholder="Correo"><br>
+						<span class="glyphicon glyphicon-check"
+							aria-hidden="true">
+							 
+						<select name="estado" >
+							<option value="0" selected>Conectado</option>
+							<option value="01">desonectado</option>
+							
+						
+						</select><br>
+							<input type="submit" value="ACEPTAR">
 						</form>
 					</div>
 					</div>
@@ -66,11 +72,12 @@
 							<thead>
 								<tr>
 									<td>ID</td>
-									<td>Nombre de funcion</td>
-									<td>Dia de la funcion</td>
-									<td>Hora de la funcion</td>
-									<td>Numero de sala</td>
-									<td>Numero de pelicula</td>
+									<td>Nombre de usuario</td>
+									<td>Contraseña</td>
+									<td>Correo</td>
+									<td>Estado</td>
+									
+									
 								</tr>
 							</thead>
 							<tbody>
